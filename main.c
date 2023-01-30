@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 int main(void) {
-  for (int i = 0; i < 10; i++) {
+  int i = 0;
+  while (i < 10) {
     printf("Hallo World!!   %d\n", i);
+    i++;
   }
   return 0;
 }
